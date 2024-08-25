@@ -9,9 +9,9 @@ public class ClearDirector : MonoBehaviour
     void Update()
     {
         //ƒ}ƒEƒX‚ª‚¨‚³‚ê‚½‚ç
-        if(Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0))
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("StartScene");
         }
     }
 }
